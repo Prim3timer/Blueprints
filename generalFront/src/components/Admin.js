@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import Users from "./Users"
 
 const Admin = () => {
+    console.log('admin')
     return (
         <section>
             <h1>Admins Page</h1>
