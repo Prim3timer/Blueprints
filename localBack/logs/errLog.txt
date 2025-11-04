@@ -1,0 +1,14 @@
+04/09/2025	23:24:24	a8f0673f-1517-450c-941d-b3d98e79ed39	Error	Cannot set headers after they are sent to the client
+04/09/2025	23:40:21	c746c219-66c6-4102-9763-de978664c56e	ReferenceError	inQ is not defined
+05/09/2025	08:18:43	8dbd01d8-a209-467a-8876-0e77e4235398	TypeError	Cannot read properties of undefined (reading 'id')
+05/09/2025	08:19:40	95cdaa89-2d36-463e-9a5a-13380e3cd1d0	TypeError	Cannot read properties of undefined (reading 'id')
+15/09/2025	21:13:19	205b7a30-7176-4e2e-af6b-8c64ca8f2b27	TypeError	Cannot destructure property 'user' of 'req.body' as it is undefined.
+16/09/2025	21:39:39	122aa268-7b09-4df1-b5ce-4a8dcf47180c	Error	secretOrPrivateKey must have a value
+16/09/2025	21:46:17	edbf9c20-8600-4056-8624-58684c2c48f9	Error	secretOrPrivateKey must have a value
+16/09/2025	21:47:35	34e9d792-d934-4ec4-aded-9235966413c9	Error	ENOENT: no such file or directory, open 'C:\Users\18028\OneDrive\Desktop\Quick Access\Tesings\secondtest\model\users.json'
+23/09/2025	20:38:43	6702661c-e483-41ac-9ce3-8c3cf0434b75	ReferenceError	resSentStatue is not defined
+23/09/2025	20:41:13	b6623ee6-0597-4b21-95c4-ab5600504146	ReferenceError	resSentStatus is not defined
+23/09/2025	20:42:12	57d94341-7954-4240-8ada-2ec1d1079817	TypeError	res.SentStatus is not a function
+23/09/2025	20:42:55	4f5c2154-5f4c-47bf-8c2d-0fd7ac76ae76	TypeError	res.SendStatus is not a function
+10/10/2025	23:35:15	e22bafb6-928b-400b-aa5d-b63cc8c4a55e	TypeError	usersDB.setUser is not a function
+12/10/2025	11:03:30	09150713-15bc-456c-9dcd-c68e33216b13	Error	"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60

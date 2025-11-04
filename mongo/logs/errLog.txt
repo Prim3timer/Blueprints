@@ -1,0 +1,23 @@
+04/09/2025	23:24:24	a8f0673f-1517-450c-941d-b3d98e79ed39	Error	Cannot set headers after they are sent to the client
+04/09/2025	23:40:21	c746c219-66c6-4102-9763-de978664c56e	ReferenceError	inQ is not defined
+05/09/2025	08:18:43	8dbd01d8-a209-467a-8876-0e77e4235398	TypeError	Cannot read properties of undefined (reading 'id')
+05/09/2025	08:19:40	95cdaa89-2d36-463e-9a5a-13380e3cd1d0	TypeError	Cannot read properties of undefined (reading 'id')
+15/09/2025	21:13:19	205b7a30-7176-4e2e-af6b-8c64ca8f2b27	TypeError	Cannot destructure property 'user' of 'req.body' as it is undefined.
+16/09/2025	21:39:39	122aa268-7b09-4df1-b5ce-4a8dcf47180c	Error	secretOrPrivateKey must have a value
+16/09/2025	21:46:17	edbf9c20-8600-4056-8624-58684c2c48f9	Error	secretOrPrivateKey must have a value
+16/09/2025	21:47:35	34e9d792-d934-4ec4-aded-9235966413c9	Error	ENOENT: no such file or directory, open 'C:\Users\18028\OneDrive\Desktop\Quick Access\Tesings\secondtest\model\users.json'
+23/09/2025	20:38:43	6702661c-e483-41ac-9ce3-8c3cf0434b75	ReferenceError	resSentStatue is not defined
+23/09/2025	20:41:13	b6623ee6-0597-4b21-95c4-ab5600504146	ReferenceError	resSentStatus is not defined
+23/09/2025	20:42:12	57d94341-7954-4240-8ada-2ec1d1079817	TypeError	res.SentStatus is not a function
+23/09/2025	20:42:55	4f5c2154-5f4c-47bf-8c2d-0fd7ac76ae76	TypeError	res.SendStatus is not a function
+24/09/2025	10:22:14	c5851464-d589-43fa-98b1-1107b9ea62f3	TypeError	Cannot destructure property 'user' of 'req.body' as it is undefined.
+24/09/2025	10:22:14	ebd17bb4-b700-45fd-af33-b2714c63f207	Error	secretOrPrivateKey must have a value
+24/09/2025	10:24:57	30f1c7dc-c6c0-4d7e-ba7a-3d1fc4d5cd7a	Error	secretOrPrivateKey must have a value
+24/09/2025	10:24:57	1df191c6-1d91-4ee0-9721-24648087dfce	Error	secretOrPrivateKey must have a value
+24/09/2025	11:05:46	293285bc-51d2-45c1-9b4b-d7ca2f12a310	Error	Not allowed by CORS
+24/09/2025	11:06:55	3c52995e-8f9d-41b2-b6ba-7be5ef54f1b6	Error	Not allowed by CORS
+24/09/2025	11:07:58	36cf4b8c-244c-4d9b-9051-a8d8bcf46eaa	Error	Not allowed by CORS
+06/10/2025	21:44:39	0746138b-4e05-44f0-8bdb-09cead9ab2e8	MongoServerSelectionError	getaddrinfo ENOTFOUND ac-dcgt3ba-shard-00-02.dlgwdu7.mongodb.net
+06/10/2025	21:44:39	1d1ece19-e8ac-406c-8831-65e628b3c04f	MongoServerSelectionError	getaddrinfo ENOTFOUND ac-dcgt3ba-shard-00-02.dlgwdu7.mongodb.net
+06/10/2025	21:44:39	828eea11-c353-4240-a8e3-d2a8b0826e7a	MongoServerSelectionError	getaddrinfo ENOTFOUND ac-dcgt3ba-shard-00-02.dlgwdu7.mongodb.net
+06/10/2025	21:44:39	0d179542-4208-4a11-a98c-9214a2b168e4	MongoServerSelectionError	getaddrinfo ENOTFOUND ac-dcgt3ba-shard-00-02.dlgwdu7.mongodb.net
