@@ -12,3 +12,28 @@
 23/09/2025	20:42:55	4f5c2154-5f4c-47bf-8c2d-0fd7ac76ae76	TypeError	res.SendStatus is not a function
 10/10/2025	23:35:15	e22bafb6-928b-400b-aa5d-b63cc8c4a55e	TypeError	usersDB.setUser is not a function
 12/10/2025	11:03:30	09150713-15bc-456c-9dcd-c68e33216b13	Error	"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+24/11/2025	23:26:49	b78b708b-e29b-4c65-8f32-7044472b4388	MulterError	Unexpected field
+24/11/2025	23:27:35	86940dc8-b51c-40bf-b64d-2c2bf70b8bc7	MulterError	Unexpected field
+24/11/2025	23:27:58	3276fbf8-cdbe-49ce-a32c-4c8019ab4de0	MulterError	Unexpected field
+24/11/2025	23:27:58	d1c3cf54-8e76-47bd-a646-73728f25041b	MulterError	Unexpected field
+24/11/2025	23:31:43	48c565f8-c5e8-4cad-9021-62c7233c09a7	MulterError	Unexpected field
+24/11/2025	23:31:43	d06bd8e9-7b54-4e83-a9ea-4c6f1229f583	MulterError	Unexpected field
+24/11/2025	23:33:57	1b692b6b-ce8f-4b14-b248-5334a474bb56	MulterError	Unexpected field
+24/11/2025	23:34:19	8b85a406-2d7c-40f3-8d24-317d5f1cd03e	MulterError	Unexpected field
+24/11/2025	23:34:19	bb696606-7f0b-402b-b8d5-c121b41ef0ad	MulterError	Unexpected field
+25/11/2025	01:15:36	b8f55197-a762-4548-aff9-5f58a91243ea	ReferenceError	fsPromises is not defined
+25/11/2025	01:17:30	6e290d42-a3e7-41e0-9f4a-16dc964799c1	ReferenceError	fsPromises is not defined
+25/11/2025	01:17:59	31300c0f-32f0-481f-b48b-bccae0fe66aa	Error	ENOENT: no such file or directory, open 'C:\Users\18028\OneDrive\Desktop\Quick Access\Blue-Prints\localBack\public\img\callbacks.jpg'
+25/11/2025	01:19:52	6c92f86f-f140-4110-af59-273551e5870b	Error	ENOENT: no such file or directory, open 'C:\Users\18028\OneDrive\Desktop\Quick Access\Blue-Prints\localBack\public\img\callbacks_.jpg'
+25/11/2025	21:52:46	807e8d88-e1e0-4a52-aaaa-649f8f6be89c	ReferenceError	employdeesDB is not defined
+25/11/2025	21:52:46	963a4941-4558-48ec-abfe-ca75590cf5c5	ReferenceError	employdeesDB is not defined
+25/11/2025	21:59:58	31ec2546-cd70-415e-b57f-7a249490713a	TypeError	The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+25/11/2025	22:00:40	c324da89-4fab-403b-acbe-c04613ae3300	TypeError	The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+25/11/2025	22:03:31	026c5f38-aa70-4e1d-9f6c-0981ec8e6907	TypeError	The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+25/11/2025	22:05:25	6e6aefb2-91b6-4647-9685-d444089add41	SyntaxError	Unexpected token 'o', "[object Obj"... is not valid JSON
+25/11/2025	23:13:17	72030188-fdac-4ee5-832f-3e33c0037eff	TypeError	employeesDB.employees.find is not a function
+25/11/2025	23:14:13	6021b370-4ed5-4f53-b1ba-9f84aecd932f	TypeError	employeesDB.employees.find is not a function
+25/11/2025	23:15:03	54824873-7662-4533-aabe-ea9cd989b208	TypeError	employeesDB.employees.find is not a function
+25/11/2025	23:16:11	ee9565b1-8082-42c0-ba97-0f9189b06dbf	TypeError	employeesDB.employees.find is not a function
+26/11/2025	12:01:09	507f1cd2-8995-491b-9a8c-69ae911818d4	Error	Cannot set headers after they are sent to the client
+26/11/2025	12:08:14	e98aa4f9-fad4-4e50-bc3b-cd23caab1863	MulterError	Unexpected field

@@ -11,6 +11,7 @@ import LinkPage from './components/LinkPage';
 import RequireAuth from './components/RequireAuth';
 import PersistLogin from './components/PersistLogin';
 import { Routes, Route } from 'react-router-dom';
+import ImageUpload from './components/ImageUpload';
 
 const ROLES = {
   'User': 2001,
@@ -33,6 +34,7 @@ function App() {
         <Route element={<PersistLogin/>}>
         <Route element={<RequireAuth allowedRoles={[ROLES.User]} />}>
           <Route path="/" element={<Home />} />
+          <Route path="/image-upload" element={<ImageUpload />} />
         </Route>
 
         <Route element={<RequireAuth allowedRoles={[ROLES.Editor]} />}>

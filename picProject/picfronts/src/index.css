@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  display: grid;
+  place-content: center;
+  /* height: 100vh; */
+}
+
+.navbar {
+  display: flex;
+  column-gap: 2rem;
+}
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.gen-image {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.credentials >*  {
+  text-decoration: none;
+}
+
+.single-image {
+  width: 300px;
+  height: 300px;
+}
+
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 60vw;
+}
+
+.users-list {
+
+  padding: 5rem;
+  display: grid;
+  
+  /* width: 100%; */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem .5rem;
+  
+}
+
+.user {
+  padding: 5rem;
+
+
+}
+
+.image-navigators-container {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.navas {
+  font-size: 4rem;
+  color: tan;
+}
+.users-list-header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.images-container {
+  width: 240px;
+  /* background-color: red; */
+
+  overflow: auto;
+}
+
+.images-inner-container {
+  /* background-color: red; */
+  display: flex;
+  /* width: 90vw; */
+  column-gap: .2rem;
+}
+
+.edit-user {
+  padding: 2rem;
+}
+
+.edit-image {
+  width: 150px;
+  height: 150px;
+}
+
+.inner-cont {
+  /* border: 2px solid orange; */
+   width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: gray;
+  overflow: hidden;
+  opacity: 6;
+  /* padding-right: rem; */
+
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+
+.loading {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: greenyellow;
+
+}
+
+.add-pic-edit {
+  /* width: 8rem; */
+  opacity: 0;
+  width: 150px;
+  transform: rotate(90deg) translate(40px, 0) scale(1.5);
+  z-index: 10;
+  /* position: absolute; */
+}
+.show-add-pic-edit {
+position: absolute;
+  /* width: 150px; */
+  transform: translateX(30px) scale(1.5);
+  
+}
+
+.show-button     {
+  display: block;
+   transform: translateX(30px) scale(1.5);
+
+}
+
+.hide-button {
+  display: none;
+}
+
+.del-icon {
+    position: absolute;
+    width: 150px;
+    height: 155px;
+    text-align: right;
+    color: whitesmoke;
+
+  }
+  
+  .del-icon-inner {
+  position: absolute;
+  /* top: 3px; */
+  right: -3px;
+  /* right: 1px; */
+  /* width: 100%; */
+  opacity: .6;
+  background-color: black;
+  border-radius: 1rem;
+
+}
+
+.the-icons  {
+  position: relative;
+  top: 3px;
+  display: flex;
+  
+}
+
+.edit-icon-inner{
+  background-color: darkslateblue;
+  padding: .2rem;
+  /* width: 100%; */
+  position: absolute;
+  left: 0;
+  border-radius: 3px;
+}
+.del-icon-inner {
+  /* width: 100%; */
+  border-radius: 3px;
+  padding: .2rem;
+   background-color: crimson;
+  /* background-color: blue; */
+
+  position: absolute;
+  right: 0;
+}
+
+.input-for-edit {
+  position: absolute;
+  background-color: red;
+  width: 80%;
+  transform: scale(1.3) rotate(90deg) translate(1px);
+  opacity: 0;
+}
+
+
+
+.image-name {
+    position: absolute;
+   transform: translateY(-40px) scale(.8);
+   background-color: yellow;
+   padding: .2rem;
+   
+  }
+  
+  .edit-user-images-container {
+  /* background-color: yellow; */
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  padding: .5rem;
+  margin: .5rem 0;
+}
+
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+  /* width: 90vw; */
+  row-gap: .2rem;
+}
+
+.edit-user-form input {
+  width: 80px;
+  padding: .1rem .5rem;
+}
+
+.input-icon {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  /* background-color: red; */
+
+}
+
+.input-icon input {
+  /* height: 100px; */
+}
+
+.input-section {
+  text-align: right; 
+ /* display: flex; */
+}
+
+.plus {
+
+  position: absolute;
+ font-size: 3rem;
+  text-align: center;
+  padding: 0 .5rem;
+  color: whitesmoke;
+}

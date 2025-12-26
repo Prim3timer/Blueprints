@@ -1,12 +1,22 @@
 [
-   {
+  {
     "id": 1,
     "firstName": "Dike",
-    "Ekwelie": "Ekwelie"
-   },
-   {
+    "lastName": "Ekwelie",
+    "img": {
+      "fieldname": "eagle",
+      "originalname": "eagle.jpg",
+      "encoding": "7bit",
+      "mimetype": "image/jpeg",
+      "destination": "public/img",
+      "filename": "eagle.jpg",
+      "path": "public\\img\\eagle.jpg",
+      "size": 90605
+    }
+  },
+  {
     "id": 2,
     "firstName": "Adanna",
     "lastName": "Okonkwo"
-   }
+  }
 ]
